@@ -1,0 +1,9 @@
+#result-container {
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+}
+
+#result {
+    transform: translate(-60px, -115px);
+}

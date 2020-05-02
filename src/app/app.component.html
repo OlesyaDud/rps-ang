@@ -1,0 +1,11 @@
+<div id="result-container" [style.visibility]="resultVisible">
+  <img id="result" src="/assets/winlosedraw.jpg" [ngStyle]="{'transform': 'translate('+resultX +',' + resultY+')'}">
+</div>
+
+<div id="button-container">
+  <button (click) = "clickB('ROCK')" id="rock" mat-raised-button color="primary">Rock</button>
+  <button (click) = "clickB('PAPER')"id ="paper" mat-raised-button color="primary">Paper</button>
+  <button (click) = "clickB('SCISSORS')" id ="scissors" mat-raised-button color="primary">Scissors</button>
+</div>
+
+<!--  [ngStyle]="{'transform': 'translate('+resultX +',' + resultY+')'}" -->
